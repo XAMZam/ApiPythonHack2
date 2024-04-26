@@ -1,0 +1,31 @@
+{%load static%}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel= "stylesheet" href="{% static 'style.css' %}" />
+  
+  <title>Blog website</title>
+</head>
+<body>
+<h1>Welcome to our blog website</h1>
+<p>This is a blog dedicated to pets, particularly dogs and cats. Here, you'll find interesting articles, stories, and pictures about our furry friends.</p>
+
+  
+  {{result1}}
+  
+  <h2>Random dog</h2>
+  <p>Dogs are known for their loyalty and companionship. They come in various breeds, sizes</p>
+   {{result2}}
+  <img src= {{result2}} alt="random dog" />
+
+  <h3>Random cat</h3>
+  <p>Cats are wonderful pets that bring joy and companionship to our lives.</p>
+
+  {{result3}}
+  <img src ={{result3}} alt="random cat" />
+
+</body>
+</html>
